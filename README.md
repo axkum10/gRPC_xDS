@@ -1,4 +1,6 @@
-Proxyless gRPC service discovery using xDS
+## Proxyless gRPC service discovery using xDS
+## xDS enabled Dynamic Discovery - Scalable and Resilient 
+
 
 Thanks to gRPC group for enabling xDS. 
 
@@ -7,14 +9,10 @@ A working example of xDS control place server, with gRPC client and server.
 
 This repository provides a control plane (xDS server) and example gRPC client and server. 
 The intent of creating this repository is to provide a working example of XDS with capabilities like:
-
-a. Dynamic discovery - gRPC server registration.
-
-b. Management of resources.
-
-c. Static loading of service provider (aka gRPC server).
-
-d. And more (refer Service_Discovery folder).
+  a. Dynamic discovery - gRPC server registration.
+  b. Management of resources.
+  c. Static loading of service provider (aka gRPC server).
+  d. And more (refer Service_Discovery folder).
 
 
 I will keep updating this repo with new xDS capabilities
