@@ -1,0 +1,19 @@
+{
+  "xds_servers": [
+    {
+      "server_uri": "2.2.2.2:8001",
+      "channel_creds": [
+        {
+          "type": "insecure"
+        }
+      ],
+      "server_features": ["xds_v3"]      
+    }
+  ],
+  "node": {
+    "id": "FileNode1",
+    "metadata": {
+      "R_GCP_PROJECT_NUMBER": "123456789012"
+    }
+  }
+}
