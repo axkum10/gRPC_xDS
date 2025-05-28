@@ -26,3 +26,13 @@ I will keep updating this repo with new xDS capabilities
 
 3. xDS Routing Control
 ![alt text](HLD_Resource_Routing.png)
+
+
+### Reference:
+  * [Envoy xDs protocol](https://www.envoyproxy.io/docs/envoy/latest/api-docs/xds_protocol)
+  * [Envoy xDS overview](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/operatons/dynamic_configuration)
+  * [Envoyproxy/go-control-plane](https://github.com/envoyproxy/go-control-plane/tree/main) Right now v3 is the latest. 
+  * [Proto](https://github.com/envoyproxy/go-control-plane/tree/main/envoy/config) - Listener, Route, etc.
+  * [Load Balancing in gRPC](https://github.com/grpc/proposal/blob/master/A27-xds-global-load-balancing.md)
+  * [xDS failover - Federation](https://github.com/grpc/proposal/blob/master/A47-xds-federation.md)
+  * [gRPC](https://github.com/grpc/grpc)
